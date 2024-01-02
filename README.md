@@ -29,18 +29,18 @@ streamlit run your_script_name.py
 ```
 Replace your_script_name.py with the name of the script containing the provided code.
 
-#Features
+## Features
 The application uses Google's Generative AI and LangChain to create a conversational interface.
 The AI assistant, Shree, is designed to be talkative and provides detailed responses based on the conversation history.
 The conversation is displayed in a chat format, with messages from both the user and the AI assistant.
 
-#Usage
+## Usage
 Upon running the application, you will see the initial greeting message from Shree.
 Enter your message in the chat input box.
 Shree will respond with a detailed message based on the conversation history.
 The conversation history is displayed in the chat window.
 
-#Implementation Details
+## Implementation Details
 The application uses Streamlit for the user interface.
 The LangChain library is used to manage the conversation history and generate responses.
 Google's Generative AI (gemini-pro model) is employed to generate AI assistant responses.
