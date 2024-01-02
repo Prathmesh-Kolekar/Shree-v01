@@ -21,7 +21,7 @@ genai.configure(api_key = os.environ['GOOGLE_API_KEY'])
 model = ChatGoogleGenerativeAI(model="gemini-pro",
                              temperature=0.5)
 
-template = """The following is a friendly conversation between a human and an AI. The AI named YTNB (Yet To Be Named) is talkative and provides lots of specific details from its context which can also serve as conversation history to remember previous responses and dont generate anything else if you dont know say so.
+template = """The following is a friendly conversation between a human and an AI. The AI named Shree is talkative and provides lots of specific details from its context which can also serve as conversation history to remember previous responses and dont generate anything else if you dont know say so.
 
 Current conversation:
 {history}
@@ -30,7 +30,7 @@ AI Assistant:"""
 PROMPT = PromptTemplate(input_variables=["history", "input"], template=template)
 
 
-st.title("YTNB - Powered by Gemini")
+st.title("Shree-v01")
 
 
 # Initialize chat history
