@@ -1,5 +1,5 @@
 
-#Shree-v01
+*Shree-v01
 This is a Streamlit application named Shree-v01 that leverages the LangChain library and Google's Generative AI to create a conversational interface between a human and an AI assistant named Shree. The application is built using Streamlit, a popular Python library for creating web applications with minimal code.
 
 Getting Started
