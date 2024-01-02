@@ -13,9 +13,6 @@ Before running the application, make sure you have the required Python libraries
 pip install streamlit langchain-google-genai
 ```
 
-```
-pip install streamlit langchain-google-genai
-```
 
 ## Configuration
 Set your Google API key in the environment variable:
