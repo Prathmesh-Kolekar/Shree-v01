@@ -1,22 +1,32 @@
 
-*Shree-v01
+# Shree-v01
+
 This is a Streamlit application named Shree-v01 that leverages the LangChain library and Google's Generative AI to create a conversational interface between a human and an AI assistant named Shree. The application is built using Streamlit, a popular Python library for creating web applications with minimal code.
 
-Getting Started
-Prerequisites
+## Getting Started
+
+### Prerequisites
+
 Before running the application, make sure you have the required Python libraries installed. You can install them using the following command:
 
-
+```
 pip install streamlit langchain-google-genai
-Configuration
+```
+
+```
+pip install streamlit langchain-google-genai
+```
+
+## Configuration
 Set your Google API key in the environment variable:
 
 export GOOGLE_API_KEY="your_google_api_key"
 Running the Application
 Run the Streamlit application using the following command:
 
-
+```
 streamlit run your_script_name.py
+```
 Replace your_script_name.py with the name of the script containing the provided code.
 
 #Features
